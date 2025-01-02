@@ -1,16 +1,20 @@
 /* CSS 註解 */
 
 //變數目前只能放在屬性值裡
-$fontSize: 20px;     //宣告變數
+$fontSize: 50px;     //宣告變數
 $fontFamily: "微軟正黑體";
+$fontColor: #00ddff;
+$bgc: #000000;
+$margin: 0;
+$padding: 0;
 
 
 body{
     font-family: $fontFamily;
-    background-color: #000000;
-    color: #c34141;
-    margin: 0;
-    padding: 0;
+    background-color: $bgc;
+    color: $fontColor;
+    margin: $margin;
+    padding: $padding;
     font-size: $fontSize;
 }
 
