@@ -49,6 +49,28 @@ h1{
 
 }
 
+$pFontSize: 40px; //全域變數
+
+p.inner{ 
+    $pFontSize: 20px;  //區域變數  
+    font-size: $pFontSize ; 
+
+    $pFontSize: 20px !global;  //可提升為全域變數
+}
+
+p.out{
+    font-size: $pFontSize;
+}
+
+
+
+
+
+
+
+
+
+
 
 // 指令: sass "來源" "目標" --watch (即時編譯成 css)
 

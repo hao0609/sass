@@ -19,4 +19,12 @@ h1 {
   font-size: 80px;
 }
 
+p.inner {
+  font-size: 20px;
+}
+
+p.out {
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
