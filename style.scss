@@ -41,8 +41,20 @@ body{
     }
     padding: null;  //給 Null 空值可以把屬性刪除
 
+    //巢狀式寫法
+    h1{
+        color: lime;
+
+        span{
+            color: blue;
+        }
+    }
     
 }
+// .wrapper h1 {
+//     color: yellow;
+// }
+
 h1{
     //font-size: map-get($tittle, h1 ); //沒引用 "sass:map" 寫法
     font-size: map.get($tittle, h1 ); //引用 "sass:map" 寫法
