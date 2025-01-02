@@ -7,7 +7,7 @@ $fontColor: #00ddff;
 $bgc: #000000;
 $marginList: 10px auto 20px 20px; //list
 $padding: 0;
-$fullwidth : false;
+$fullWidth : false;
 $wrapperBgc: red;
 
 body{
@@ -22,7 +22,7 @@ body{
 .wrapper {
     background-color: $wrapperBgc;
 
-    @if $fullwidth {
+    @if $fullWidth {
         width: 100%;
     }
     @else {
@@ -33,6 +33,7 @@ body{
 
     
 }
+
 
 // 指令: sass "來源" "目標" --watch (即時編譯成 css)
 
