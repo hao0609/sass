@@ -5,19 +5,33 @@ $fontSize: 50px;     //宣告變數
 $fontFamily: "微軟正黑體";
 $fontColor: #00ddff;
 $bgc: #000000;
-$margin: 0;
+$marginList: 10px auto 20px 20px; //list
 $padding: 0;
-
+$fullwidth : false;
+$wrapperBgc: red;
 
 body{
     font-family: $fontFamily;
     background-color: $bgc;
     color: $fontColor;
-    margin: $margin;
+    margin: $marginList;
     padding: $padding;
     font-size: $fontSize;
 }
 
+.wrapper {
+    background-color: $wrapperBgc;
+
+    @if $fullwidth {
+        width: 100%;
+    }
+    @else {
+        width: 900px;
+        margin: auto;
+    }
+
+    
+}
 
 // 指令: sass "來源" "目標" --watch (即時編譯成 css)
 
