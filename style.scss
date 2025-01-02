@@ -1,0 +1,20 @@
+/* CSS 註解 */
+
+//變數目前只能放在屬性值裡
+$fontSize: 20px;     //宣告變數
+$fontFamily: "微軟正黑體";
+
+
+body{
+    font-family: $fontFamily;
+    background-color: #000000;
+    color: #c34141;
+    margin: 0;
+    padding: 0;
+    font-size: $fontSize;
+}
+
+
+// 指令: sass "來源" "目標" --watch (即時編譯成 css)
+
+// ex. sass style.scss css/style.css --watch
