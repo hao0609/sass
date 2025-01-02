@@ -62,6 +62,15 @@ p.out{
     font-size: $pFontSize;
 }
 
+$b : #000000;
+$b : #FF0000 !default;  //可變更為預設值
+
+p.color{
+    color: $b;
+}
+
+
+
 
 
 
