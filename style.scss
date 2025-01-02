@@ -1,5 +1,8 @@
 /* CSS 註解 */
 
+
+@use "sass:map";
+
 //變數目前只能放在屬性值裡
 $fontSize: 50px;     //宣告變數
 $fontFamily: "微軟正黑體";
@@ -9,6 +12,13 @@ $marginList: 10px auto 20px 20px; //list
 $padding: 0;
 $fullWidth : false;
 $wrapperBgc: red;
+
+//map 資料
+$tittle : (               
+    key : value,
+    h1 : 80px,
+    h2 : 30px,
+);
 
 body{
     font-family: $fontFamily;
@@ -32,6 +42,11 @@ body{
     padding: null;  //給 Null 空值可以把屬性刪除
 
     
+}
+h1{
+    //font-size: map-get($tittle, h1 ); //沒引用 "sass:map" 寫法
+    font-size: map.get($tittle, h1 ); //引用 "sass:map" 寫法
+
 }
 
 
