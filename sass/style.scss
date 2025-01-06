@@ -5,14 +5,36 @@
 
 
 // sass import
-@import 'var';
+
+//base
+@import 'base/var';
+@import 'base/font';
+@import 'base/color';
+
+
+//component
+@import 'component/btn';
+@import 'component/form';
+@import 'component/table';
+
+//layout
+@import 'layout/footer';
+@import 'layout/header';
+
+
+//mixins
+@import 'mixin/mixin';
+
+
+//page
+@import 'page/about';
+@import 'page/index';
+
+
+
 
 // css import
 // @import url('header.css');
-
-
-
-
 
 
 body{
