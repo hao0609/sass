@@ -1,0 +1,17 @@
+
+//變數目前只能放在屬性值裡
+$fontSize: 50px;     //宣告變數
+$fontFamily: "微軟正黑體";
+$fontColor: #00ddff;
+$bgc: #000000;
+$marginList: 10px auto 20px 20px; //list
+$padding: 0;
+$fullWidth : false;
+$wrapperBgc: red;
+
+//map 資料
+$tittle : (               
+    key : value,
+    h1 : 80px,
+    h2 : 30px,
+);

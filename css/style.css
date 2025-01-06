@@ -1,49 +1,17 @@
-@charset "UTF-8";
-/* CSS 註解 */
-body {
-  font-family: "微軟正黑體";
-  background-color: #000000;
-  color: #00ddff;
-  margin: 10px auto 20px 20px;
-  padding: 0;
-  font-size: 50px;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 8 | @import 'var';
+ *   |         ^^^^^
+ *   '
+ *   style.scss 8:9  root stylesheet */
 
-.wrapper {
-  background-color: red;
-  width: 900px;
-  margin: auto;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 8 \2502  @import 'var';\d\a   \2502          ^^^^^\a   \2575 \a   style.scss 8:9  root stylesheet";
 }
-.wrapper h1 {
-  color: lime;
-}
-.wrapper h1 span {
-  color: blue;
-}
-
-h1 {
-  font-size: 80px;
-}
-
-p.inner {
-  font-size: 20px;
-}
-
-p.out {
-  font-size: 20px;
-}
-
-p.color {
-  color: #000000;
-}
-
-.box {
-  width: 300px;
-  height: 300px;
-}
-
-.bg {
-  background-image: url(../img/banner.jpg);
-}
-
-/*# sourceMappingURL=style.css.map */
