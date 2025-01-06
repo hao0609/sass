@@ -112,13 +112,20 @@ $banner: 'banner';
     background-image: url(../img/#{$banner}.jpg);
 }
 
-@mixin rect(){
-    width: 300px;
-    height: 300px;
+@mixin rect($w, $h){     //可以透過宣告變數來參數進去
+    width: $w;
+    height: $h;
+} 
+
+@mixin rect($w:300px, $h:200px){     //可以透過宣告變數來參數進去
+                                    //可給預設值 (可包含 NULL = 不給值 )
+    width: $w;
+    height: $h;
+
 } 
 
 .box{
-    @include rect();
+    @include rect(500px, 400px);
 }
 
 @mixin titleH1(){             // mixin 組合屬性的寫法
