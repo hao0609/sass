@@ -16,6 +16,16 @@ body {
 .wrapper h1 {
   color: lime;
 }
+@media screen and (max-width: 560px) {
+  .wrapper h1 {
+    color: yellow;
+  }
+}
+@media screen and (max-width: 375px) {
+  .wrapper h1 {
+    color: white;
+  }
+}
 .wrapper h1 span {
   color: blue;
 }

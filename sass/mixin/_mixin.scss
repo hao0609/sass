@@ -1,0 +1,25 @@
+@mixin rect($w:300px, $h:200px){     //可以透過宣告變數來參數進去
+    //可給預設值 (可包含 NULL = 不給值 )
+width: $w;
+height: $h;
+
+} 
+
+// 手機板 RWD 原本寫法
+// @media screen and (max-width: 560px){
+
+// }
+
+// 直接用 mixin 宣告 @media screen
+@mixin m_560() {
+    @media screen and (max-width: 560px){
+        @content;
+    }
+}
+
+// 客製化斷點
+@mixin custom($w){
+    @media screen and (max-width: $w){
+        @content;
+    }
+}
