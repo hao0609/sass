@@ -149,6 +149,15 @@ h1{
     }
 }
 
+// 用 For 迴圈跑漸層
+@for $i from 1 through 10 {
+    .bgc-#{$i}{
+        background-color: lighten(#00072e, $i *9);
+        width: 150px;
+        height: 30px;
+    }
+}
+
 
 
 

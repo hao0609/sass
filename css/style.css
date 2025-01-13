@@ -86,4 +86,64 @@ h1 {
   margin-left: 5px;
 }
 
+.bgc-1 {
+  background-color: rgb(0, 13.9847826087, 91.9);
+  width: 150px;
+  height: 30px;
+}
+
+.bgc-2 {
+  background-color: rgb(0, 20.9695652174, 137.8);
+  width: 150px;
+  height: 30px;
+}
+
+.bgc-3 {
+  background-color: rgb(0, 27.9543478261, 183.7);
+  width: 150px;
+  height: 30px;
+}
+
+.bgc-4 {
+  background-color: rgb(0, 34.9391304348, 229.6);
+  width: 150px;
+  height: 30px;
+}
+
+.bgc-5 {
+  background-color: rgb(20.5, 56.1847826087, 255);
+  width: 150px;
+  height: 30px;
+}
+
+.bgc-6 {
+  background-color: rgb(66.4, 95.1, 255);
+  width: 150px;
+  height: 30px;
+}
+
+.bgc-7 {
+  background-color: rgb(112.3, 134.0152173913, 255);
+  width: 150px;
+  height: 30px;
+}
+
+.bgc-8 {
+  background-color: rgb(158.2, 172.9304347826, 255);
+  width: 150px;
+  height: 30px;
+}
+
+.bgc-9 {
+  background-color: rgb(204.1, 211.8456521739, 255);
+  width: 150px;
+  height: 30px;
+}
+
+.bgc-10 {
+  background-color: rgb(250, 250.7608695652, 255);
+  width: 150px;
+  height: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */
