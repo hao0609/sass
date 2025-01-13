@@ -66,4 +66,24 @@ h1 {
   font-family: "微軟正黑體";
 }
 
+.push-1 {
+  margin-left: 1px;
+}
+
+.push-2 {
+  margin-left: 2px;
+}
+
+.push-3 {
+  margin-left: 3px;
+}
+
+.push-4 {
+  margin-left: 4px;
+}
+
+.push-5 {
+  margin-left: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */

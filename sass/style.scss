@@ -141,6 +141,14 @@ h1{
 }
 
 
+//for 迴圈
+
+@for $i from 1 through 5 {
+    .push-#{$i} {
+        margin-left: $i * 1px;
+    }
+}
+
 
 
 
